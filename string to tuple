@@ -1,0 +1,10 @@
+def f(str):
+        for i in str:
+                y=str.replace(";","=").split("=")
+                z=iter(y)
+                w=zip(z,z)
+                return w
+def main():
+        str=raw_input("enter the string")
+        print(f(str))
+main()
